@@ -1,0 +1,7 @@
+MétodoEndpointDescripción (Función asociada)
+GET/caballerosLista todos los caballeros registrados.
+POST/caballerosCrea un nuevo caballero en el sistema.
+GET/caballeros/{id}showCaballero(): Muestra los detalles de un caballero específico.
+GET/caballeros/{id}/constelationshowConstelacion(): Devuelve la constelación de un caballero.
+POST/caballeros/{id}/fight?enemy_id={id}fightCaballero(): Compara el ataque de dos caballeros y define un ganador.
+GET/caballeros/your/{date}showYourCaballero(): Asigna/muestra un caballero basado en una fecha.
